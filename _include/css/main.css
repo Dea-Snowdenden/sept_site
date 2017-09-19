@@ -14,14 +14,15 @@ html, hmtl a{
 }
 
 body{
-	background:#2F3238;
-	color:#7F8289;
+	background-image:("images/backg.jpg");
+
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:28px;
 }
-
+/** 	background:#2F3238; **/
+/** 	color:#7F8289; **/
 
 a{
 	color:#DE5E60;
@@ -1370,3 +1371,4 @@ footer .credits {
        -o-transition: none;
           transition: none;
 }
+
