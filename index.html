@@ -28,9 +28,6 @@
 <!-- Font Icons -->
 <link href="_include/css/fonts.css" rel="stylesheet">
 
-<!-- Shortcodes -->
-<link href="_include/css/shortcodes.css" rel="stylesheet">
-
 <!-- Responsive -->
 <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
 <link href="_include/css/responsive.css" rel="stylesheet">
@@ -45,29 +42,8 @@
 <!-- Fav Icon -->
 <link rel="shortcut icon" href="#">
 
-<link rel="apple-touch-icon" href="#">
-<link rel="apple-touch-icon" sizes="114x114" href="#">
-<link rel="apple-touch-icon" sizes="72x72" href="#">
-<link rel="apple-touch-icon" sizes="144x144" href="#">
-
 <!-- Modernizr -->
 <script src="_include/js/modernizr.js"></script>
-
-<!-- Analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'Insert Your Code']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<!-- End Analytics -->
 
 </head>
 
@@ -84,16 +60,10 @@
 <!-- Homepage Slider -->
 <div id="home-slider">	
     <div class="overlay"></div>
-
     <div class="slider-text">
     	<div id="slidecaption"></div>
-    </div>   
-	
-	<div class="control-nav">
-        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-        <ul id="slide-list"></ul>
-        
+    </div>       
+
         <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
 </div>
@@ -205,6 +175,18 @@
                             </li>
                         	<!-- End Item Project -->
                             
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="WESBOS" href="images/wesbos.png">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="images/wesbos.png" alt="wesbos">
+                            </li>
+                            <!-- End Item Project -->
+
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -216,19 +198,7 @@
                                 <img src="images/reactflowershop.png" alt="flowershop">
                             </li>
                         	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="_include/img/work/full/image-05-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
+                               
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3">
                             	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
@@ -256,7 +226,7 @@
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="_include/img/work/full/image-07-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="SHAREBOOK" href="_include/img/work/full/image-07-full.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
@@ -273,7 +243,6 @@
         <!-- End Portfolio Projects -->
     </div>
 </div>
-<!-- End Our Work Section -->
 
 <!-- About Section -->
 <div id="about" class="page-alternate">
@@ -289,7 +258,6 @@
     </div>
     <!-- End Title Page -->
     
-    <!-- People -->
     <div class="row">
     	
         <!-- Start Profile -->
@@ -306,7 +274,7 @@
         </div>
         <!-- End Profile -->
         
-        <!-- Start Profile -->
+        <!-- Start Second term -->
     	<div class="span4 profile">
         	<div class="image-wrap">
                 <div class="hover-wrap">
@@ -320,9 +288,9 @@
                 I learned to make a website. The first one that I did was in a single file only. The HTML, images and CSS were all fused into one file only. 
                 I learned its supposed to be seperated and I have definitely improved on that.</p>   	   
         </div>
-        <!-- End Profile -->
+        <!-- End Second term -->
         
-        <!-- Start Profile -->
+        <!-- Start Thirdterm -->
     	<div class="span4 profile">
         	<div class="image-wrap">
                 <div class="hover-wrap">
@@ -337,14 +305,10 @@
                 works basically from the back-end.
             </p>
         </div>
-        <!-- End Profile -->
-        
+
     </div>
-    <!-- End People -->
-</div>
 </div>
 <!-- End About Section -->
-
 
 <!-- Contact Section -->
 <div id="contact" class="page">
@@ -404,22 +368,7 @@
 </div>
 <!-- End Contact Section -->
 
-<!-- Twitter Feed -->
-<div id="twitter-feed" class="page-alternate">
-	<div class="container">
-    	<div class="row">
-            <div class="span12">
-                <div class="follow">
-                    <a href="https://github.com/deazee101" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
-                </div>
-                    
-                <div id="ticker" class="query"> 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Twitter Feed -->
+
 
 <!-- Socialize -->
 <div id="social-area" class="page">
